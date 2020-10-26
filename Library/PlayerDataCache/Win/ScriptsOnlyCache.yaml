@@ -14,11 +14,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -52,26 +47,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 592}
+      Script: {instanceID: 600}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11734}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 12042}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 13938}
+      Script: {instanceID: 13944}
     - Class: 114
-      Script: {instanceID: 14386}
+      Script: {instanceID: 14378}
     - Class: 114
-      Script: {instanceID: 15020}
+      Script: {instanceID: 14382}
     - Class: 114
-      Script: {instanceID: 18858}
+      Script: {instanceID: 14396}
     - Class: 114
-      Script: {instanceID: 23046}
+      Script: {instanceID: 15030}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -467,6 +466,18 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
+      Hash: 79de67871d520a65ab70b7fef14b9ac1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
+  - hash:
+      serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -585,19 +596,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerScript
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/jodya/Desktop/Mewbourn_Jody_DIG3480_Tutorial2.zip/Mewbourn_Jody_DIG3480_Tutorial2.zip.exe
+  playerPath: C:/Users/jodya/Desktop/Tutorial_2_challange/Mewbourn_Jody_DIG3480_Tutorial2.zip.exe
